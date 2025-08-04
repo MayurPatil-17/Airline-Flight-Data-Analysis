@@ -40,7 +40,8 @@ This repository contains a comprehensive analysis and visualization of airline f
 
 2. **Install dependencies**
     ```
-    pip install pandas numpy matplotlib seaborn 
+    pip install pandas numpy matplotlib seaborn
+    pip install notebook
     ```
 
 3. **Add datasets**
@@ -51,7 +52,12 @@ This repository contains a comprehensive analysis and visualization of airline f
     python airlineproject.py
     ```
 
-5. **View Presentation**
+5. **Convert script to Jupyter Notebook (optional)**
+    ```
+    jupyter nbconvert --to notebook --execute airlineproject.py --output airlineproject.ipynb
+    ```
+
+6. **View Presentation**
     - Open `flight_data_analysis.pptx` for core insights and visual storytelling.
 
 ## 📈 Insights
